@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Inmobiliaria S.A</h1>
+
+
+    <p>Usa los siguientes filtros para ver los departamentos</p>
+
+    <!-- Acciones sin parámetros -->
+    <nav>
+        <ul>
+            <li><a href="" id="todos">Ver todos</a></li>
+            <li><a href="" id="alquilados">Ver alquilados</a></li>
+            <li><a href="" id="disponibles">Ver disponibles</a></li>
+            <li><a href="" id="ordenarPorPrecio">Ordenados por precio</a></li>
+            <li><a href="" id="recaudacion">Ver RECAUDACIÓN</a></li>
+        </ul>
+    </nav>
+
+    <h3></h3>
+
+    <h2>Departamentos</h2>
+
+    <!-- Espacio para las acciones que usan parámetros específicos -->
+    <form id="buscar">
+        <label>Buscar por ID:</label>
+        <input type="text" name="id" placeholder="Ej: 1">
+        <button type="submit">BUSCAR</button>
+    </form>
+    <form id="aplicarRebaja">
+        <label>Rebajar:</label>
+        <input type="text" name="porcentaje" placeholder="Ej: 20">
+        <button type="submit">APLICAR</button>
+    </form>
+    <form id="precioMax">
+        <label>Buscar por precio máximo:</label>
+        <input type="text" name="precio" placeholder="Ej: 30000">
+        <button type="submit">VER</button>
+    </form>
+     <form id="ambientes">
+        <label>Buscar ambientes minimos:</label>
+        <input type="text" name="cantidad" placeholder="Ej: 2">
+        <button type="submit">VER</button>
+    </form>
+
+    <!-- Acá se reflejará los departamentos-->
+    <section>
+        
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
